@@ -1,0 +1,9 @@
+.navbar-brand {
+  img {
+    width: 40px;
+    @include media-breakpoint-up(lg) {
+      width: 53px;
+    } 
+  }
+  
+}

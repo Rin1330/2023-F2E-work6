@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7TAO - 活動訂票網</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="login">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 py-7 py-lg-12">
+            <div class="text-center">
+              <img src="../assets/images/sparkler.png" style="width: 2rem;" class="img-fluid mb-5" alt="">
+              <h2 class="fs-5 mb-5">會員登入</h2>
+              <form class="text-start">
+                <div class="mb-5">
+                  <label for="account" class="form-label mb-2">帳號</label>
+                  <input type="text" class="form-control" id="account" placeholder="請輸入帳號">
+                </div>
+                <div class="mb-7 mb-lg-8">
+                  <label for="password" class="form-label mb-2">密碼</label>
+                  <input type="password" class="form-control" id="password" placeholder="請輸入密碼">
+                </div>
+                <button type="button" class="btn btn-primary w-100 p-3 p-lg-1">登入<i class="ps-1 icofont-rounded-double-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

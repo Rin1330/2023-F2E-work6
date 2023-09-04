@@ -1,0 +1,20 @@
+.swiper{
+  font-family: 'Noto Serif TC', serif;
+  background-color: #000;
+}
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+.swiper-slide {
+  padding: 16px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  width: auto;
+  color: #FBFF22;
+  background: #000;
+  @include media-breakpoint-up(lg) {
+    padding: 24px 0;
+    font-size: 2rem;
+  }
+}

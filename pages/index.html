@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>7TAO - 活動訂票網</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+  <main class="pt-5 pt-lg-8">
+    <div class="container">
+      <section data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="50" class="banner text-white d-flex flex-column justify-content-between" style="background-image: url('../assets/images/main-visual.jpg');">
+        <h2 class="pt-5 pt-lg-11 ps-10 ps-lg-11 fs-4 fs-lg-2 lh-sm">19 MAY <p class="d-lg-inline">2023</p>
+        </h2>
+        <div class="text-center">
+          <h3 class="noto-tc-serif fs-8 fs-lg-5 mb-5 px-lg-11 px-5 lh-lg l-spacing-1">隔牆有耳-沒有草東的派對</h3>
+          <p class="d-none mb-7 d-lg-block text-center col-7 mx-auto">
+            你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！
+            帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！</p>
+        </div>
+      </section>
+      <section class="py-8 py-lg-11 category">
+        <ul class="row list-unstyled mb-0 row row-cols-3 row-cols-lg-6 g-2 g-lg-7">
+          <li class="col" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+            <span class="category-block d-flex flex-column align-items-center justify-content-center p-7  border border-2">
+              <span class="d-block mb-2 mb-lg-3 cateIcon">
+                <svg id="Capa_1" enable-background="new 0 0 512.011 512.011" viewBox="0 0 512.011 512.011" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <path d="m282.113 218.474v186.674c-7.987-4.292-17.112-6.728-26.796-6.728-31.317 0-56.796 25.479-56.796 56.795 0 31.317 25.479 56.796 56.796 56.796s56.796-25.479 56.796-56.796v-138.58l169.892-14.918v85.878c-7.987-4.292-17.112-6.728-26.796-6.728-31.317 0-56.796 25.479-56.796 56.796s25.479 56.795 56.796 56.795 56.796-25.479 56.796-56.795v-239.376z" />
+                    <path d="m249.994 189.427v-189.427l-185.119 16.255v142.677c-5.399-2.141-11.282-3.319-17.435-3.319-26.155 0-47.434 21.279-47.434 47.434s21.278 47.434 47.434 47.434 47.435-21.279 47.435-47.434v-101.462l125.119-10.987v54.713c-5.399-2.141-11.282-3.319-17.435-3.319-26.155 0-47.434 21.279-47.434 47.434s21.278 47.434 47.434 47.434 47.435-21.278 47.435-47.433z" />
+                    <path d="m382.058 63.335h30v30.002h-30z" />
+                    <path d="m382.058 123.339h30v30.002h-30z" />
+                    <path d="m352.056 93.337h30v30.002h-30z" />
+                    <path d="m412.06 93.337h30v30.002h-30z" />
+                    <path d="m99.953 418.703h30v30.002h-30z" />
+                    <path d="m99.953 358.699h30v30.002h-30z" />
+                    <path d="m129.955 388.701h30v30.002h-30z" />
+                    <path d="m69.951 388.701h30v30.002h-30z" />
+                </svg>
+              </span>
+              <span class="noto-tc-serif fw-bold fs-9 fs-lg-5">演出</span>
+            </span>
+          </li>
+          <li class="col" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+            <span class="category-block d-flex flex-column align-items-center justify-content-center p-7  border border-2">
+              <span class="d-block mb-2 mb-lg-3 cateIcon">
+                <svg id="Layer_1" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                  <g fill-rule="evenodd">
+                    <path d="m30 8.62a1.15 1.15 0 0 1 0 2.29 1.15 1.15 0 1 1 0-2.29z" />
+                    <path d="m5.17 27.58a1.15 1.15 0 1 1 1.15-1.15 1.15 1.15 0 0 1 -1.15 1.15z" />
+                    <path d="m23.49 12a7.89 7.89 0 0 0 -9-1.24c-3 1.61-4.74 5.57-4.35 10.41a15.6 15.6 0 0 1 -4.53-3.32c-3.39-3.61-4.51-7.85-2.86-10.5s6.07-3.88 9.42-.27c1.09-4.79 5.51-6 8.28-4.47 2.55 1.39 3.73 5.06 3.04 9.39z" />
+                    <path d="m30.43 28c-2.43 2.71-7.23 4.8-11.11 6-2.42-2.63-5.15-6.19-6.23-9.45-1.56-4.19-.77-10.31 2.45-11.79a5.61 5.61 0 0 1 7.26 2 7 7 0 0 1 1 2.47c.16-.17.34-.32.47-.47 3.27-3 7.38-1.83 9 .75s.5 6.87-2.84 10.49z" />
+                    <path d="m28.35 3.08a.46.46 0 0 1 .29-.43.44.44 0 0 1 .51.11l.45.5a.47.47 0 0 0 .35.15h.67a.45.45 0 0 1 .32.79l-.49.45a.44.44 0 0 0 -.15.35v.67a.46.46 0 0 1 -.8.32l-.45-.49a.44.44 0 0 0 -.35-.15h-.67a.47.47 0 0 1 -.44-.29.45.45 0 0 1 .12-.51l.49-.45a.44.44 0 0 0 .15-.35c0-.16 0-.41 0-.67z" />
+                    <path d="m9.65 31.42a.46.46 0 0 1 -.86 0l-.23-.63a.51.51 0 0 0 -.27-.27l-.63-.23a.46.46 0 0 1 0-.86l.63-.23a.45.45 0 0 0 .27-.27c.06-.15.14-.38.23-.62a.46.46 0 0 1 .86 0c.09.24.18.47.23.62a.45.45 0 0 0 .27.27l.63.23a.46.46 0 0 1 0 .86l-.63.23a.51.51 0 0 0 -.27.27c-.05.16-.14.39-.23.63z" />
+                  </g>
+                </svg>
+              </span>
+              <span class="noto-tc-serif fw-bold fs-9 fs-lg-5">聯誼</span>
+            </span>
+          </li>
+          <li class="col" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+            <span class="category-block d-flex flex-column align-items-center justify-content-center p-7  border border-2">
+              <span class="d-block mb-2 mb-lg-3 cateIcon">
+                <svg id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <circle cx="176.376" cy="93.87" r="15" />
+                    <path d="m221.716 228.04 108.4-99.05 121.04 102.76.73-231.75h-390.77l-.75 239.14 84.97-55.55zm-90.34-134.17c0-24.81 20.19-45 45-45s45 20.19 45 45-20.19 45-45 45-45-20.19-45-45z" />
+                    <path d="m451.038 270.997-120.195-102.035-105.161 96.101-79.431-46.233-85.996 56.227-.139 44.574h390.77z" />
+                    <path d="m451.837 482v-129.087h-30v29.901c-14.186 6.21-29.672 9.464-45.278 9.464s-31.093-3.253-45.28-9.465v-29.9h-30v29.901c-14.187 6.211-29.673 9.465-45.277 9.465-15.606 0-31.093-3.254-45.28-9.466v-29.9h-30v29.901c-14.188 6.211-29.674 9.465-45.278 9.465-15.606 0-31.092-3.254-45.279-9.466v-29.901h-30v129.088h-20v30h70v-30h-20v-67.078c14.535 4.845 29.865 7.358 45.279 7.358s30.743-2.512 45.278-7.358v67.078h-20v30h70v-30h-20v-67.079c14.535 4.846 29.866 7.358 45.28 7.358 15.413 0 30.743-2.512 45.277-7.357v67.078h-20v30h70v-30h-20v-67.079c14.535 4.846 29.866 7.357 45.28 7.357 15.415 0 30.745-2.512 45.278-7.357v67.079h-20v30h70v-30z" />
+                  </g>
+                </svg>
+              </span>
+              <span class="noto-tc-serif fw-bold fs-9 fs-lg-5">展覽</span>
+            </span>
+          </li>
+          <li class="col" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+            <span class="category-block d-flex flex-column align-items-center justify-content-center p-7  border border-2">
+              <span class="d-block mb-2 mb-lg-3 cateIcon">
+                <svg id="Icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m24.61377 39.10156h-6.64502c-2.06787 0-3.75 1.68213-3.75 3.75v11.82568c0 3.8999 3.17236 7.07275 7.07227 7.07275s7.07275-3.17285 7.07275-7.07275v-11.82568c0-2.06787-1.68213-3.75-3.75-3.75z" />
+                  <path d="m49.70898 39.10156h-6.64551c-2.06787 0-3.75 1.68213-3.75 3.75v11.82568c0 3.8999 3.17285 7.07275 7.07275 7.07275s7.07275-3.17285 7.07275-7.07275v-11.82568c0-2.06787-1.68213-3.75-3.75-3.75z" />
+                  <path d="m42.95898 30.32959v7.28253c.52478-.00159 7.16595-.07404 7.5.06531v-34.67743c0-.41406-.33594-.75-.75-.75h-1.21289c-2.16748 0-4.01172 1.47705-4.48486 3.59229l-4.23682 18.93262c-.28564 1.27588-.04443 2.57617.6792 3.66162.59912.89844 1.49072 1.56641 2.50537 1.89307z" />
+                  <path d="m28.83496 2.28711h-.00049c-1.30762.21289-2.29346 1.42529-2.29346 2.81982v7.28125c0 .66797-.44482 1.24365-1.03418 1.33936-.37842.06055-.7417-.03906-1.0249-.27979-.28027-.23828-.44092-.58545-.44092-.95264v-7.38818c0-1.39551-.98633-2.60742-2.29395-2.81982-.80566-.13135-1.62207.09375-2.2373.61768-.61572.52393-.96875 1.2876-.96875 2.09521v7.38818c0 .66797-.44482 1.24365-1.03418 1.33936-.37891.06055-.7417-.03906-1.0249-.27979-.28027-.23828-.44092-.58545-.44092-.95264v-7.38818c0-1.39551-.98633-2.60742-2.29395-2.81982-.80469-.13135-1.62207.09375-2.2373.61768-.61572.52393-.96875 1.2876-.96875 2.09521v12.34082c0 3.92139 2.05078 7.59424 5.35254 9.58496 1.03174.62256 1.64795 1.67725 1.64795 2.82129v7.89771c.43762-.07318 7.06207-.07324 7.5.00006v-7.85431c0-1.15918.6377-2.22705 1.70557-2.85693 3.26563-1.92529 5.29395-5.47021 5.29395-9.25049v-12.68311c0-.80762-.35303-1.57129-.96875-2.09521-.61523-.52344-1.43115-.74805-2.2373-.61768z" />
+                </svg>
+              </span>
+              <span class="noto-tc-serif fw-bold fs-9 fs-lg-5">美食</span>
+            </span>
+          </li>
+          <li class="col" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+            <span class="category-block d-flex flex-column align-items-center justify-content-center p-7  border border-2">
+              <span class="d-block mb-2 mb-lg-3 cateIcon">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489.854 489.854" style="enable-background:new 0 0 489.854 489.854;" xml:space="preserve">
+                  <path d="M485.014,392.413c-36.617-51.589-148.913-211.11-148.913-211.11c-2.688-3.828-6.929-6.304-11.584-6.778 c-4.682-0.451-9.3,1.092-12.719,4.287l-29.426,27.545l-69.05-128.155c-2.8-5.172-8.161-8.433-14.046-8.512 c-5.778-0.26-11.345,3.03-14.272,8.125L2.151,395.902c-2.879,5.016-2.863,11.185,0.016,16.192c2.911,5,8.26,8.085,14.034,8.085 h457.138c0.111-0.016,0.222-0.008,0.313,0c8.959,0,16.202-7.253,16.202-16.2C489.854,399.446,487.439,395.83,485.014,392.413z M289.175,244.384l31.169-29.197l61.973,87.856l-52.577-54.766c-0.854-0.879-2.025-1.386-3.26-1.401 c-1.199-0.008-2.387,0.474-3.256,1.338l-37.499,37.45c-1.299,1.304-3.261,1.694-4.968,0.981c-1.708-0.705-2.816-2.373-2.8-4.217 l0.143-34.056C282.15,248.372,286.137,247.21,289.175,244.384z M198.594,119.195l40.203,74.591l-30.189,26.628 c-0.933,0.832-2.184,1.235-3.415,1.124c-1.251-0.111-2.406-0.736-3.165-1.717l-19.351-24.556c-0.917-1.162-2.343-1.811-3.812-1.731 c-1.489,0.079-2.848,0.877-3.622,2.128l-29.255,46.65c-0.917,1.447-2.565,2.27-4.273,2.111c-1.708-0.157-3.197-1.265-3.828-2.855 l-3.923-9.936L198.594,119.195z" />
+                </svg>
+              </span>
+              <span class="noto-tc-serif fw-bold fs-9 fs-lg-5">戶外</span>
+            </span>
+          </li>
+          <li class="col" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+            <a href="./event.html" class="category-block category-link d-flex flex-column align-items-center justify-content-center border border-2">
+              <span class="noto-tc-serif fw-bold fs-5 fs-lg-3 lh-md">探索<br>更多</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="recent-event">
+        <div class="d-flex px-3 px-lg-8 py-5 py-lg-7 justify-content-between align-items-center border border-3 flex-nowrap mb-7 mb-lg-8" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
+          <h2 class="fs-5 fs-lg-1 lh-sm">RECENT</h2>
+          <p class="noto-tc-serif fs-9 fs-lg-4 fw-bold">近期活動</p>
+        </div>
+        <ul class="list-unstyled mb-8 mb-lg-12 row row-cols-1 row-cols-md-2 row-cols-lg-3 g-7">
+          <li class="col card border-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+            <time class="fs-4 fs-xl-3 pb-1 pb-lg-2 mb-5 mb-lg-3 lh-sm border-bottom-3">19 MAY 2023</time>
+            <img src="../assets/images/event-1.jpg" class="card-img-top object-fit-cover mb-3" alt="">
+            <div class="card-body d-flex flex-column p-0">
+              <h3 class="noto-tc-serif fs-8 fs-lg-5 fw-bold mb-2 mb-lg-3 lh-lg">邪典電影派對——房間</h3>
+              <p class="mb-5">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...
+              </p>
+              <div class="border-top-2 border-bottom-2 py-3 d-flex justify-content-between align-items-center mt-auto">
+                <a class="noto-tc-serif fw-bold lh-lg position-relative typeLabel" href="javascript:;">社群活動</a>
+                <a href="javascript:;" class="btn-sell position-relative d-flex align-items-center z-2" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="me-1 fw-bold">開賣中</span><i class="ps-1 icofont-rounded-double-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="col card border-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+            <time class="fs-4 fs-xl-3 pb-1 pb-lg-2 mb-5 mb-lg-3 lh-sm border-bottom-3">23 MAY 2023</time>
+            <img src="../assets/images/event-2.jpg" class="card-img-top object-fit-cover mb-3" alt="">
+            <div class="card-body d-flex flex-column p-0">
+              <h3 class="noto-tc-serif fs-8 fs-lg-5 fw-bold mb-2 mb-lg-3 lh-lg">怪舞俱樂部</h3>
+              <p class="mb-5">覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一... </p>
+              <div class="border-top-2 border-bottom-2 py-3 d-flex justify-content-between align-items-center mt-auto">
+                <a class="noto-tc-serif fw-bold lh-lg position-relative typeLabel" href="javascript:;">演出</a>
+                <a href="javascript:;" class="btn-sell position-relative d-flex align-items-center z-2"><span class="me-1 fw-bold">開賣中</span><i class="ps-1 icofont-rounded-double-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="col card border-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+            <time class="fs-4 fs-xl-3 pb-1 pb-lg-2 mb-5 mb-lg-3 lh-sm border-bottom-3">30 MAY 2023</time>
+            <img src="../assets/images/event-3.jpg" class="card-img-top object-fit-cover mb-3" alt="">
+            <div class="card-body d-flex flex-column p-0">
+              <h3 class="noto-tc-serif fs-8 fs-lg-5 fw-bold mb-2 mb-lg-3 lh-lg">哈利波特馬拉松</h3>
+              <p class="mb-5">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...
+              </p>
+              <div class="border-top-2 border-bottom-2 py-3 d-flex justify-content-between align-items-center mt-auto">
+                <a class="noto-tc-serif fw-bold lh-lg position-relative typeLabel" href="javascript:;">社群活動</a>
+                <a href="javascript:;" class="btn-sell position-relative d-flex align-items-center z-2"><span class="me-1 fw-bold">開賣中</span><i class="ps-1 icofont-rounded-double-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="col card border-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+            <time class="fs-4 fs-xl-3 pb-1 pb-lg-2 mb-5 mb-lg-3 lh-sm border-bottom-3">12 June 2023</time>
+            <img src="../assets/images/event-4.jpg" class="card-img-top object-fit-cover mb-3" alt="">
+            <div class="card-body d-flex flex-column p-0">
+              <h3 class="noto-tc-serif fs-8 fs-lg-5 fw-bold mb-2 mb-lg-3 lh-lg">皮卡丘排球大賽</h3>
+              <p class="mb-5">還記得小時候玩的小遊戲嗎？總是有朋友吹噓自己獨孤求敗、只求一敗？是時候該展現真正的實力了！本活動採用瑞士制賽程，以絕對公平的方......</p>
+              <div class="border-top-2 border-bottom-2 py-3 d-flex justify-content-between align-items-center mt-auto">
+                <a class="noto-tc-serif fw-bold lh-lg position-relative typeLabel" href="javascript:;">遊戲競賽</a>
+                <a href="javascript:;" class="btn-sell position-relative d-flex align-items-center z-2"><span class="me-1 fw-bold">開賣中</span><i class="ps-1 icofont-rounded-double-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="col card border-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+            <time class="fs-4 fs-xl-3 pb-1 pb-lg-2 mb-5 mb-lg-3 lh-sm border-bottom-3">25 June 2023</time>
+            <img src="../assets/images/event-5.jpg" class="card-img-top object-fit-cover mb-3" alt="">
+            <div class="card-body d-flex flex-column p-0">
+              <h3 class="noto-tc-serif fs-8 fs-lg-5 fw-bold mb-2 mb-lg-3 lh-lg">酒精路跑</h3>
+              <p class="mb-5">身邊總是有對自己酒量有高度自信的朋友嗎？拉著他/她一起來參加酒精路跑吧！一起拍下第一杯直到倒下為止的照片，一起喝遍市區內各家極具品味的酒吧。
+              </p>
+              <div class="border-top-2 border-bottom-2 py-3 d-flex justify-content-between align-items-center mt-auto">
+                <a class="noto-tc-serif fw-bold lh-lg position-relative typeLabel" href="javascript:;">社群活動</a>
+                <a href="javascript:;" class="btn-sell position-relative d-flex align-items-center z-2"><span class="me-1 fw-bold">開賣中</span><i class="ps-1 icofont-rounded-double-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="col card border-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+            <time class="fs-4 fs-xl-3 pb-1 pb-lg-2 mb-5 mb-lg-3 lh-sm border-bottom-3">9 July 2023</time>
+            <img src="../assets/images/event-6.jpg" class="card-img-top object-fit-cover mb-3" alt="">
+            <div class="card-body d-flex flex-column p-0">
+              <h3 class="noto-tc-serif fs-8 fs-lg-5 fw-bold mb-2 mb-lg-3 lh-lg">展覽——我的房間</h3>
+              <p class="mb-5">每個人的房間總會有那麼一兩個能代表自己的物事，或許是再平凡不過的牙刷、馬克杯，或許有那些別人的房間從沒出現過的小東西——那些能定義自己的特別的東西。</p>
+              <div class="border-top-2 border-bottom-2 py-3 d-flex justify-content-between align-items-center mt-auto">
+                <a class="noto-tc-serif fw-bold lh-lg position-relative typeLabel" href="javascript:;">展覽</a>
+                <a href="javascript:;" class="btn-sell position-relative d-flex align-items-center z-2"><span class="me-1 fw-bold">開賣中</span><i class="ps-1 icofont-rounded-double-right"></i></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="mb-8 mb-lg-12">
+        <div class="d-flex px-3 px-lg-8 py-5 py-lg-7 justify-content-between align-items-center border border-3 flex-nowrap mb-7 mb-lg-8" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
+          <h2 class="fs-5 fs-lg-1 lh-sm">ONLINE</h2>
+          <p class="noto-tc-serif fs-9 fs-lg-4 fw-bold">線上活動</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <img src="../assets/images/online.jpg" class="object-fit-cover w-100 online-albumn" alt="ONLINE Albumn" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="50">
+          </div>
+          <div class="col-lg-5">
+            <p class="noto-tc-serif fs-9 fs-lg-4 fw-bold mb-2 mb-lg-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">線上活動</p>
+            <ul class="list-unstyled mb-3 mb-lg-8 d-flex">
+              <li class="me-2" data-aos="fade-up" data-aos-duration="1200"><a href="javascript:;" class="tag">競賽</a></li>
+              <li class="me-2" data-aos="fade-up" data-aos-duration="1200"><a href="javascript:;" class="tag">科技</a></li>
+              <li data-aos="fade-up" data-aos-duration="1200"><a href="javascript:;" class="tag">有趣</a></li>
+            </ul>
+            <p class="mb-lg-8 mb-3" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">最近網路上很流行的AI程式 ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。
+              這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。
+              該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！</p>
+            <button type="button" class="btn btn-primary w-100" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">查看活動詳情<i class="ps-1 icofont-rounded-double-right"></i></button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="swiper swiperBanner">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      </div>
+    </div>
+    <div class="container">
+      <section class="album py-11 py-lg-12" data-aos="fade-up" data-aos-duration="1200">
+        <ul class="list-unstyled mb-0 row gy-10 gy-lg-0 justify-content-center">
+          <li class="col-10 col-md-6 col-lg-3">
+            <div class="position-relative border border-2 p-3 p-lg-5 h-100">
+              <span class="label py-2 px-5 bg-light text-dark noto-tc-serif lh-1 position-absolute top-0 start-50 translate-middle">社群活動</span>
+              <img src="../assets/images/album-01.jpg" class="mb-3 mb-lg-5 object-fit-cover w-100 img-fluid album-cover" alt="">
+              <p class="noto-tc-serif fw-bold fs-8 mb-5 mb-lg-8">無聲派對-閉閉嘴dancing</p>
+            </div>
+          </li>
+          <li class="col-10 col-md-6 col-lg-3 rotate-positive">
+            <div class="position-relative border border-2 p-3 p-lg-5 h-100">
+              <span class="label py-2 px-5 bg-light text-dark noto-tc-serif lh-1 position-absolute top-0 start-50 translate-middle">藝文活動</span>
+              <img src="../assets/images/album-02.jpg" class="mb-3 mb-lg-5 object-fit-cover w-100 img-fluid album-cover" alt="">
+              <p class="noto-tc-serif fw-bold fs-8 mb-5 mb-lg-8">拯救老店大作戰</p>
+            </div>
+          </li>
+          <li class="col-10 col-md-6 col-lg-3 rotate-negative">
+            <div class="position-relative border border-2 p-3 p-lg-5 h-100">
+              <span class="label py-2 px-5 bg-light text-dark noto-tc-serif lh-1 position-absolute top-0 start-50 translate-middle">自我覺察</span>
+              <img src="../assets/images/album-03.jpg" class="mb-3 mb-lg-5 object-fit-cover w-100 img-fluid album-cover" alt="">
+              <p class="noto-tc-serif fw-bold fs-8 mb-5 mb-lg-8">內觀修行-部落篇</p>
+            </div>
+          </li>
+          <li class="col-10 col-md-6 col-lg-3 rotate-positive">
+            <div class="position-relative border border-2 p-3 p-lg-5 h-100">
+              <span class="label py-2 px-5 bg-light text-dark noto-tc-serif lh-1 position-absolute top-0 start-50 translate-middle">聯誼活動</span>
+              <img src="../assets/images/album-04.jpg" class="mb-3 mb-lg-5 object-fit-cover w-100 img-fluid album-cover" alt="">
+              <p class="noto-tc-serif fw-bold fs-8 mb-5 mb-lg-8">賞櫻野餐</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="swiper swiperBanner">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      </div>
+    </div>
+    <div class="container">
+      <section class="py-8 py-lg-12">
+        <div class="row gx-0 gy-7 gy-lg-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+          <div class="col-lg-6 border border-primary border-2">
+            <div class="py-5 px-3 px-lg-8 border-bottom border-primary">
+              <h2 class="fs-5 fs-lg-4 fw-bold noto-tc-serif lh-lg">#FOLLOW US</h2>
+            </div>
+            <div class="px-3 py-5 p-lg-8">
+              <p class="mb-5 mb-lg-8">想第一時間獲得新奇有趣的活動資訊？ <br>追蹤我們的社群吧！ <br>也歡迎你聯繫我們，提供好玩有趣的活動企劃。</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-5 d-flex align-items-center">
+                  <span class="d-flex align-items-center justify-content-center bg-primary me-5" style="width: 2rem; height: 2rem;">
+                    <i class="icofont-ui-email text-light"></i>
+                  </span>
+                  <a href="mailto:7tao.event@gmail.com">7tao.event@gmail.com</a>
+                </li>
+                <li class="mb-5 d-flex align-items-center">
+                  <span class="d-flex align-items-center justify-content-center bg-primary me-5" style="width: 2rem; height: 2rem;">
+                    <i class="icofont-phone text-light"></i>
+                  </span>
+                  <a href="tel:+09123123123">09123123123</a>
+                </li>
+                <li class="d-flex align-items-center">
+                  <span class="d-flex align-items-center justify-content-center bg-primary me-5" style="width: 2rem; height: 2rem;">
+                    <i class="icofont-facebook text-light"></i>
+                  </span>
+                  <a href="javascript:;">7TAO七逃</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-column border border-primary border-2 border-start-lg-0">
+            <div class="py-5 px-3 px-lg-8 border-bottom border-primary">
+              <h2 class="fs-5 fs-lg-4 fw-bold noto-tc-serif lh-lg">#SUBSCRIBE US</h2>
+            </div>
+            <div class="d-flex flex-column justify-content-between flex-grow-1">
+              <div class="px-3 py-5 p-lg-8">
+                <p class="mb-5 mb-lg-8">訂閱電子報送折價券！ <br>定期精選文章資訊及最新優惠資訊， <br>還不通通給我訂閱起來？</p>
+                <form action="">
+                  <input type="text" class="form-control py-4 px-7" id="account" placeholder="輸入Email">
+                </form>
+              </div>
+              <button type="button" class="btn btn-primary w-100 mt-auto">確認訂閱<i class="ps-1 icofont-rounded-double-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="py-11 py-lg-12 text-center border-3 border-top">
+      <div class="container" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+        <p class="mb-3 mb-lg-5 noto-tc-serif fw-bold fs-8 fs-lg-4 lh-lg">此刻打盹，你將做夢；此刻學習，你將圓夢</p>
+        <p class="noto-tc-serif fw-bold lh-lg">——我也不知道誰說的</p>
+      </div>
+    </section>
+  </main>
+  <div class="modal fade" id="exampleModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header justify-content-center py-5">
+          <h2 class="h4 modal-title noto-tc-serif fw-bold lh-lg l-spacing-1">立刻成為7TAO會員</h5>
+            <button type="button" class="btn-close m-0 position-absolute" style="right: 1rem;" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body py-8 px-5 p-lg-11 text-center">
+          <p class="mb-7">立刻成為七逃會員，加速活動報名流程並取得活動優惠資訊。 <br>
+            您也可以先報名活動，日後再註冊帳號，<br>
+            系統會在認證您的Email後，協助您找回舊的訂單。</p>
+          <button type="button" class="btn btn-primary py-2 px-5 fs-7 lh-lg border-0 " data-bs-dismiss="modal" style="width: 184px;">查看活動詳情</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%- include('./layout/footer'); -%>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+      </script>
+  <script type="module" src="../main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+body {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .25s ease 0s;
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.btn {
+  &:hover {
+    color: $secondary;
+  }
+}
+.input-search {
+  flex: 1;
+  @include media-breakpoint-up(lg) {
+    flex: inherit;
+  }
+}
+
+.banner {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  @include media-breakpoint-up(lg) {
+    height: 518px;
+  }
+}
+
+.category {
+  &-block {
+    height: 112px;
+    @include media-breakpoint-up(lg)  {
+      height: 196px;
+    }
+  }
+  .cateIcon {
+    width: 40px;
+    @include media-breakpoint-up(lg) {
+      width: 80px;
+    }
+  }
+  &-link:hover {
+    background-color: var(--bs-primary)!important;
+    transition: all .25s ease 0s;
+    span {
+      color: var(--bs-secondary)!important;
+    }
+  }
+}
+
+.recent-event {
+  .card-img-top {
+    height: 210px;
+    @include media-breakpoint-up(md) {
+      height: 255px;
+    }
+  }
+}
+
+.typeLabel {
+  padding-left: 20px;
+  @include media-breakpoint-up(lg) {
+    padding-left: 24px;
+  }
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../assets/images/sparkler.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    transform: translateY(-50%);
+    @include media-breakpoint-up(lg) {
+      width: 24px;
+      height: 24px;
+      background-size: 24px 24px;
+    }
+  }
+  &:hover {
+    color: rgba(156, 158, 24, 1);
+  }
+  &:hover:before {
+    animation:spin 3s linear infinite;
+  }
+}
+
+.btn-sell {
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: -3px;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background: transparent;
+    z-index: -1;
+    transition: all .25s ease 0s;
+  }
+  &:hover:before {
+      background: var(--bs-secondary);
+  }
+}
+
+.online-albumn {
+  max-height: 158px;
+  object-position: 0 32%;
+  @include media-breakpoint-up(md) {
+    max-height: 317px;
+  }
+}
+
+.album {
+  &-cover {
+    height: 267px;
+    @include media-breakpoint-up(md) {
+      height: 274px;
+    }
+  }
+}
+
+// animation 
+
+@keyframes spin { 
+  100% { 
+      -webkit-transform: translateY(-50%) rotate(360deg); 
+      transform:translateY(-50%) rotate(360deg); 
+  } 
+}
